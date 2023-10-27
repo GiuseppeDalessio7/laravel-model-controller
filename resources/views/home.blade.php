@@ -52,7 +52,7 @@
                             <div class="card shadow border-0">
                                 <img class=" card-img-top" src="" alt="" srcset="{{ $movie->image }}">
                                 <div class="card-body text-center">
-                                    {{ $movie->original_title }}
+                                    <span>{{ $movie->original_title }}</span>
                                 </div>
                                 <div class="card-body text-center">
                                     {{ $movie->nationality }}
