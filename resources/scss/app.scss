@@ -17,5 +17,14 @@ h2 {
     span {
         color: $span;
         text-transform: uppercase;
+        font-weight: 800;
+        font-size: 20px;
+    }
+
+    #mycolor {
+        color: $small;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 20px;
     }
 }

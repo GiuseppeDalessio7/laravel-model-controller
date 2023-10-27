@@ -51,17 +51,17 @@
                             <h2 class="text-center">{{ $movie->title }}</h2>
                             <div class="card shadow border-0">
                                 <img class=" card-img-top" src="" alt="" srcset="{{ $movie->image }}">
-                                <div class="card-body text-center">
-                                    <span>{{ $movie->original_title }}</span>
+                                <div " class="card-body text-center">
+                                    <span  id="mycolor">{{ $movie->original_title }}</span>
                                 </div>
-                                <div class="card-body text-center">
-                                    {{ $movie->nationality }}
+                                <div " class="card-body text-center">
+                                    <span id="mycolor"> {{ $movie->nationality }}</span>
                                 </div>
-                                <div class="card-body text-center">
-                                    {{ $movie->date }}
+                                <div " class="card-body text-center">
+                                    <span id="mycolor">{{ $movie->date }}</span>
                                 </div>
-                                <div class="card-body text-center">
-                                    {{ $movie->vote }}
+                                <div " class="card-body text-center">
+                                    <span id="mycolor">{{ $movie->vote }}</span>
                                 </div>
                             </div>
                         </div>
