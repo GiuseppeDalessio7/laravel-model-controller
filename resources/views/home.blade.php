@@ -24,11 +24,15 @@
             <section>
                 <div class="container">
                     <div class="row row-cols-1 row-cols-md-3 g-4">
-                        <h2>Numero Film: {{ $movie->id }}</h2>
+                        <div class="col">
+                            <div style="margin-top: 12%" class="card shadow border-0 ">
+                                <h2>Numero Film: {{ $movie->id }}</h2>
+                            </div>
+                        </div>
                         <div class="col">
                             <h2 class="text-center">Movie Title</h2>
                             <div class="card shadow border-0">
-                                <img class=" card-img-top" src="" alt="" srcset="">
+                                <img class=" card-img-top" src="" alt="" srcset="{{ $movie->image }}">
                                 <div class="card-body text-center">
                                     <span>Original Title<span>
                                 </div>
@@ -46,7 +50,7 @@
                         <div class="col">
                             <h2 class="text-center">{{ $movie->title }}</h2>
                             <div class="card shadow border-0">
-                                <img class=" card-img-top" src="" alt="" srcset="">
+                                <img class=" card-img-top" src="" alt="" srcset="{{ $movie->image }}">
                                 <div class="card-body text-center">
                                     {{ $movie->original_title }}
                                 </div>
